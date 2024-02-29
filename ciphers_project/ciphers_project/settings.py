@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "ciphers-service-latest-jemk.onrender.com"
+    "file:///D:/Personal%20Projects/Numbers-App/index.html"
 ]
 
 
