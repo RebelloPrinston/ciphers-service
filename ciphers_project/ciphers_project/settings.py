@@ -26,8 +26,8 @@ SECRET_KEY = "django-insecure-tydt2#cn3egx&&tbd4l^!s#f3hxzhre8ez#dcd+kq2vv*cf70y
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "ciphers-service-latest-jemk.onrender.com"
-    "file:///D:/Personal%20Projects/Numbers-App/index.html"
+    "ciphers-service-latest-jemk.onrender.com",
+    "https://rebelloprinston.github.io/Numbers-App-Demo/"
 ]
 
 
