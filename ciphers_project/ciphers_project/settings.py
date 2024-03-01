@@ -26,8 +26,7 @@ SECRET_KEY = "django-insecure-tydt2#cn3egx&&tbd4l^!s#f3hxzhre8ez#dcd+kq2vv*cf70y
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "ciphers-service-latest-jemk.onrender.com",
-    "https://rebelloprinston.github.io/Numbers-App-Demo/"
+    "ciphers-service-latest-jemk.onrender.com"
 ]
 
 
@@ -128,3 +127,8 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+CORS_ALLOWED_ORIGINS = [
+    "https://rebelloprinston.github.io",
+    "http://localhost:3000"
+]
